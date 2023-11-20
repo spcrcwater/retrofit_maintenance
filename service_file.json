@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "retrofit-maintenance",
+  "private_key_id": "986bc702b0ce62385e47d2cc14a8b1d343e6fa0c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC2grH7Ev9cWSQe\nMhw/Qr9L5HY8OJPAyZ1pBs5sypRWpVbF4Seai+hfgJspKd038TD80zyMpAlNc4iV\nv23EG4ppanbBltdWbjPbt8kFoZutzANGfWnBYvO1yUPcZscQt38rzx3Dt/Z5M0kK\nvjHSIdDAkBtT5d0s1RVqLX8oOqZlcvfGvzpgp8bbvIlI6D+SuZhwNVU0HmuHJbC8\nV8UsE+T+/qKcGYdnsSe4DpDoy73he0Yyig1GWAq7i+SrcyDPHmo/g8DCw8iQ6RCj\np+aRV+G0RQ99CP14VWzWWZBLR0/uR5j4to93ipq2Sb4qOkVnDMAgnLLzMpvFw24P\n/3Y9HcktAgMBAAECggEAB9zA/JMwr4KCkQ9xEpOWSJdutYDtcops7suVhG/ErKfi\nQVOGAH0i9UxFwuP0DPcluFqEOv3NDcpambLdsGtMTubAd23/WFCWiNJVxVmVKotF\nn9mCvws7evsQ4pOF41U4VAOP4XDRHB8GuEEBxe7hfo4mszpNiSMj0Udk+S9voCKd\nYufpPW5J1idYhfbLceR1TR0dp3JCVAg3t1+FCMGCri0HbXuwueHZWtoCYeimGxzK\nFVqQY3HI6CPiKMOsUylj2rhUbLO6123XOOMg4Lpt8svi2HjCjS8mvFjUM5UU//W0\npu32/WUhaanXwabds0SP48sfhSr3iAvWRs8FOYi80QKBgQDeVw4u4vpuqYD6RbrO\nr5Nvu1mQdA/LVo1Ad7fezJdNgplLG/v6QleIr6XZBK6fJDfTEFu4XbDU19dsZ8Zk\ndUKH4wRydxSOopUn8g7yZ6Z9ghUt6bLR0tyN/Tlj4lwkio6Py2Bu4yYmAzX5QekW\naUYPkXWWiMUAmtHPRssvQOI48QKBgQDSJAS5q6WofqfaygXkWIPJZl0SBdzR5iWH\nrUP8YdcXgMZPXHgeCftddMdcysosVvIM86aosTwRbAg6F8HyHS1sPw5smeDSaQps\n4M7EtQiVKb8c9VMheR0F+Y8cWHsKpt9EpebaV2bxtu4w/kt8AhUE5pAbjPQ9yxbE\nm25xU2uz/QKBgB7i2QWKYl+dDF238gtkOIb876Qxe0Az9ctO1iwNH7eUvNbCPG63\naJGEVPWgwOE6lsarLxKdcUMf+L0GbXjnESbvUl7US/bEfxPdfFYQMACfYXHPVRfw\nwtK2qpJFj6dD2CoBhpPg2hvNtmG51jdWyHTBMCSJO1SqLRsuKmuWB9cBAoGBAIyB\noNc0ufNLnJhh9EaWGKgVVa2zVc7S/80UQR0DnnoMlIyD25zaN8RpTNPyk/PJvtaC\nI7EvsGZFwcp2ECv+7lwuXUqoKPcHXP0n45kLIs35t9t4/TiobouMLfBaCQs6QJb6\nBr1/K0n7cpA3t+kWy08XisuhF74piPO0qcgEa0NRAoGAMUczHwWcZY7wAFLQmmmg\nyAoYey8NVOuyCoOMCIE1wuXqo3KB8sEw6Z4GsnHCB3dwREqLw5rEEJLzvOdr64G5\nRuQ1SKHd16GeV2Pf+NGUgbmtoZzEN+BbJrK8XRjn4H5lU2YEbvzWsLGCueL6V3P2\nkfXN4ITBCNYhXdX4VEgI2rM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "retrofit@retrofit-maintenance.iam.gserviceaccount.com",
+  "client_id": "105630419718236888795",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/retrofit%40retrofit-maintenance.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
