@@ -19,7 +19,7 @@ url="http://onem2m.iiit.ac.in:443/~/in-cse"
 def sheet_append(date_time, node_, reading, status):
 
     # path = 'E:\\IIIT-H\\Retrofit Maintenance Dashboard\\service_file.json'
-    path = '/home/ankitkriti/Ankit_PC/Retrofit Maintenance/service_file.json'
+    path = '/service_file.json'
     gc = pygsheets.authorize(service_account_file=path)
     # Open spreadsheet and then worksheet
     # sh = gc.open('Retrofit_Node_Status')
