@@ -14,7 +14,7 @@ node_list = ['PH02-70', 'PH03-70', 'PH04-70', 'PH04-71', 'PR00-70', 'PL00-70', '
 node_ = ['Nodes', 'PH02-70', 'PH03-70', 'PH04-70', 'PH04-71', 'PR00-70', 'PL00-70', 'PL00-71', 'BB04-70', 'BB04-71', 
              'KB04-70', 'KB04-71', 'KB04-72', 'KB04-73', 'VN04-70', 'VN04-71']
 
-url="http://onem2m.iiit.ac.in:443/~/in-cse"
+url="https://onem2m.iiit.ac.in:443/~/in-cse"
 
 def sheet_append(date_time, node_, reading, status):
 
