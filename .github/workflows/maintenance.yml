@@ -2,7 +2,7 @@ name: run nodeSheet.py
 
 on:
   schedule:
-    - cron: "*/59 * * * *" # On every hour
+    - cron: "*/1 * * * *" # On every hour
 
 jobs:
   build:
