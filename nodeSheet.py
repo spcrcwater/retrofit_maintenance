@@ -1,6 +1,7 @@
 import requests
 import time
 import datetime
+import pytz
 import pygsheets
 
 current_time=int(time.time())
@@ -47,17 +48,13 @@ def main():
     for i in range(0,len(node_list)):
         res=requests.get(url='https://onem2m.iiit.ac.in:443/~/in-cse/in-name/AE-WM/WM-WF/WM-WF-'+str(node_list[i])+'/Data/la',
                         headers={'X-M2M-Origin':'guest:guest','Accept':'application/json'})
-        # try:
-        #   print(res)
-        #   print("Printed res")
-        # except:
-        #   print("No data")
-        #   continue
         timestamp=(res.json()['m2m:cin']['con'].replace(']','').replace('[','').split(',')[0])
         data_time = int(timestamp)
         last_datetime = datetime.datetime.fromtimestamp(data_time)
-        date_time.append(str(last_datetime))
-        print(last_datetime)
+        my_datetime_ist = last_datetime.astimezone(pytz.timezone('Asia/Kolkata')).strftime('%Y-%m-%d %H:%M:%S %Z%z')
+        print(my_datetime_ist)
+        date_time.append(str(my_datetime_ist))
+        # date_time.append(str(last_datetime))
         result=(res.json()['m2m:cin']['con'].replace(']','').replace('[','').split(',')[2])
         node_1=(res.json()['m2m:cin']['lbl'][1])
         ree=float(result)
