@@ -45,10 +45,11 @@ def main():
     reading.append("Last Reading")
     status.append("Status")
     for i in range(0,len(node_list)):
-        res=requests.get(url='http://onem2m.iiit.ac.in:443/~/in-cse/in-name/AE-WM/WM-WF/WM-WF-'+str(node_list[i])+'/Data/la',
+        res=requests.get(url='https://onem2m.iiit.ac.in:443/~/in-cse/in-name/AE-WM/WM-WF/WM-WF-'+str(node_list[i])+'/Data/la',
                         headers={'X-M2M-Origin':'guest:guest','Accept':'application/json'})
         try:
           print(res)
+          print("Printed res")
         except:
           print("No data")
           continue
