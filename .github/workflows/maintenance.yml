@@ -1,17 +1,15 @@
 name: run nodeSheet.py
 
-# on:
-#   schedule:
-#     - cron: "*/1 * * * *" # On every hour
-
 on:
-  workflow_dispatch:            
+  schedule:
+    - cron: "*/59 * * * *" # On every hour
+
+# on:
+#   workflow_dispatch:            
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    # env:
-    #   TZ: "Asia/India"
     steps:    
       - name: checkout repo content
         uses: actions/checkout@v2 # checkout the repository content
