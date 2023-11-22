@@ -5,10 +5,7 @@ name: run nodeSheet.py
 #     - cron: "*/1 * * * *" # On every hour
 
 on:
-  workflow_dispatch:
-  timezone: 'Asia/India'
-  
-            
+  workflow_dispatch:            
 
 jobs:
   build:
