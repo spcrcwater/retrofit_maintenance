@@ -16,7 +16,7 @@ jobs:
       - name: Set Timezone
         uses: szenius/set-timezone@v1.2
         with:                          # Desired timezone for Linux
-        timezoneLinux: 'Asia/India'    # optional, default is UTC
+        timezoneLinux: "Asia/India"    # optional, default is UTC
       
       - name: checkout repo content
         uses: actions/checkout@v2 # checkout the repository content
