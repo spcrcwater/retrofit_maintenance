@@ -51,7 +51,7 @@ def main():
         timestamp=(res.json()['m2m:cin']['con'].replace(']','').replace('[','').split(',')[0])
         data_time = int(timestamp)
         last_datetime = datetime.datetime.fromtimestamp(data_time)
-        my_datetime_ist = last_datetime.astimezone(pytz.timezone('Asia/Kolkata')).strftime('%Y-%m-%d %H:%M:%S %Z%z')
+        my_datetime_ist = last_datetime.astimezone(pytz.timezone('Asia/Kolkata')).strftime('%Y-%m-%d %H:%M:%S')
         print(my_datetime_ist)
         date_time.append(str(my_datetime_ist))
         # date_time.append(str(last_datetime))
