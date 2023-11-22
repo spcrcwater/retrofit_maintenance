@@ -7,20 +7,17 @@ name: run nodeSheet.py
 on:
   workflow_dispatch:
   
-  name: Set Timezone
-  uses: szenius/set-timezone@v1.2
-  with:
-    # Desired timezone for Linux
-    timezoneLinux: 'Asia/India'
-    # optional, default is UTC
-    # Desired timezone for MacOS
-
-          
+            
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Set Timezone
+        uses: szenius/set-timezone@v1.2
+        with:                          # Desired timezone for Linux
+        timezoneLinux: 'Asia/India'    # optional, default is UTC
+      
       - name: checkout repo content
         uses: actions/checkout@v2 # checkout the repository content
 
